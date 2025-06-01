@@ -25,7 +25,7 @@ app.use(
     //     callback(new Error('Not allowed by CORS'));
     //   }
     // },
-    origin: 'http://localhost:8081',
+    origin: ['http://localhost:5173', 'exp://10.132.218.1:8081'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   })
